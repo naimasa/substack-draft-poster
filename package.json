@@ -1,0 +1,37 @@
+{
+  "name": "substack-draft-poster",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "substack-draft-poster": "src/cli.mjs"
+  },
+  "files": [
+    "src",
+    "docs",
+    "examples",
+    "README.md",
+    "README.ja.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node test/tiptap.test.mjs && node test/agent-contract.test.mjs && node test/extraction.test.mjs && node test/check-public.test.mjs && node test/docs.test.mjs",
+    "check": "node scripts/check-syntax.mjs",
+    "check:public": "node scripts/check-public.mjs"
+  },
+  "license": "MIT",
+  "author": "naimasa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naimasa/substack-draft-poster"
+  },
+  "bugs": {
+    "url": "https://github.com/naimasa/substack-draft-poster/issues"
+  },
+  "homepage": "https://github.com/naimasa/substack-draft-poster",
+  "dependencies": {
+    "playwright": "^1.65.1"
+  }
+}

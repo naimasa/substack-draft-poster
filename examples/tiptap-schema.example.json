@@ -1,0 +1,5 @@
+{
+  "_comment": "Structure only. Capture your editor schema with the probe before use.",
+  "editorPath": "element.editor",
+  "paywallNode": { "type": "paywall" }
+}

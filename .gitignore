@@ -1,0 +1,11 @@
+node_modules/
+.substack-poster/
+substack-input/
+.DS_Store
+*.bak
+*.tmp
+# Personal blocklist for the pre-release check (never published)
+scripts/check-public.local.json
+.env
+.env.*
+*.log

@@ -1,0 +1,35 @@
+{
+  "forbiddenWords": [
+    "content/blog",
+    "/Users/",
+    "nai\u006dasa"
+  ],
+  "allowedEmails": [
+    "156673+nai\u006dasa\u0040users.noreply.github.com",
+    "noreply@anthropic.com"
+  ],
+  "allowedEmailPatterns": [
+    "^[^@]+@example\\.[a-z.]+$"
+  ],
+  "allowedHosts": [
+    "example.substack.com"
+  ],
+  "allowIn": {
+    "content/blog": [
+      "docs/HISTORY.md",
+      "scripts/check-public.config.json"
+    ],
+    "/Users/": [
+      "docs/HISTORY.md",
+      "scripts/check-public.config.json"
+    ],
+    "nai\u006dasa": [
+      "docs/HISTORY.md",
+      "scripts/check-public.config.json",
+      "LICENSE",
+      "package.json",
+      "README.md",
+      "README.ja.md"
+    ]
+  }
+}
